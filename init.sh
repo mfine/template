@@ -15,3 +15,5 @@ mv template.cabal "$name.cabal"
 git init
 git add .
 git commit -m "Initial import from template."
+
+stack build --test --bench
